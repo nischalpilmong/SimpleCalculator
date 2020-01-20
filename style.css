@@ -18,6 +18,12 @@ html{
 
 
 }
+.calculator h2{
+  text-align: center;
+    color: brown;
+    background-color: navajowhite;
+    border-radius: 2px;
+}
 .calculator-screen{
     width: 400px;
     font-size: 5rem;

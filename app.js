@@ -17,6 +17,8 @@ function inputDigit(digit){
     console.log(calculator);
 }
 function inputDecimal(dot){
+    if(calculator.waitingForSecondOperand === true)
+        return;
     if(!calculator.displayValue.includes(dot)){
         calculator.displayValue += dot;
     }
